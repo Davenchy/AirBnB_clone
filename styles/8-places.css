@@ -9,17 +9,12 @@
   flex-wrap: wrap;
 }
 
-.places > ul > li {
-  float: left;
-}
-
 .places > h1 {
   font-size: 30px;
 }
 
 .places article {
   width: 390px;
-  aspect-ratio: 1 / 1;
   margin: 20px;
   padding: 20px;
   border: 1px solid #ff5a5f;
@@ -48,44 +43,44 @@
 }
 
 .places article .information {
-	height: 80px;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	margin-top: 60px;
+  height: 80px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60px;
 }
 
 .places article .user {
-	margin-top: 20px;
-	margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .places article .information > div {
-	width: 100px;
-	text-align: center;
+  width: 100px;
+  text-align: center;
 }
 
 .places article .information .max_guest::before,
 .places article .information .number_rooms::before,
 .places article .information .number_bathrooms::before {
-	content: "";
-	display: block;
-	height: 50px;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
+  content: "";
+  display: block;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .places article .information .max_guest::before {
-	background-image: url(../images/icon_group.png);
+  background-image: url(../images/icon_group.png);
 }
 
 .places article .information .number_rooms::before {
-	background-image: url(../images/icon_bed.png);
+  background-image: url(../images/icon_bed.png);
 }
 
 .places article .information .number_bathrooms::before {
-	background-image: url(../images/icon_bath.png);
+  background-image: url(../images/icon_bath.png);
 }
