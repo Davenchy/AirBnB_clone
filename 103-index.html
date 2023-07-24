@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>AirBnB Clone</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="images/icon.png">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="stylesheet" href="styles/103-common.css">
+	<link rel="stylesheet" href="styles/103-header.css">
+	<link rel="stylesheet" href="styles/103-footer.css">
+	<link rel="stylesheet" href="styles/103-filters.css">
+	<link rel="stylesheet" href="styles/103-places.css">
+</head>
+
+<body>
+	<header aria-label="Header">
+		<div class="logo"></div>
+	</header>
+	<div class="container">
+		<section class="filters" aria-label="Filters">
+			<div class="locations" role="button" tabindex="0" aria-label="Locations">
+				<h3>States</h3>
+				<h4>California, Arizona...</h4>
+				<div class="popover">
+					<h2>Arizona</h2>
+					<ul>
+						<li>Page</li>
+						<li>Page2</li>
+					</ul>
+
+					<h2>California</h2>
+					<ul>
+						<li>San Francisco</li>
+						<li>Los Altos</li>
+					</ul>
+				</div>
+			</div>
+			<div class="amenities" role="button" tabindex="0" aria-label="Amenities">
+				<h3>Amenities</h3>
+				<h4>Internet, Kitchen...</h4>
+				<div class="popover">
+					<ul>
+						<li>Internet</li>
+						<li>TV</li>
+						<li>Kitchen</li>
+						<li>Iron</li>
+					</ul>
+				</div>
+			</div>
+			<button aria-label="Search">Search</button>
+		</section>
+		<section class="places" aria-label="Places">
+			<h1>Places</h1>
+			<ul aria-label="Places List">
+				<li>
+					<article tabindex="0" aria-label="Place">
+						<h2>My home</h2>
+						<div class="price_by_night" aria-label="Price">$80</div>
+						<div class="information" aria-label="Information">
+							<div class="max_guest" aria-label="Max Guest">
+								2 Guest
+							</div>
+							<div class="number_rooms" aria-label="Number of Rooms">
+								1 Bedroom
+							</div>
+							<div class="number_bathrooms" aria-label="Number of Bathrooms">
+								1 Bathroom
+							</div>
+						</div>
+						<div class="user" aria-label="Owner">
+							<strong>Owner</strong>: John Lennon
+						</div>
+						<div class="description" aria-label="Description">
+							This is a lovely 1 bedroom and 1 bathroom apartment that can accomodate 2 people.
+							It locates at the center of Shanghai and next to the subway line 1.
+							1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
+						</div>
+						<div class="amenities" aria-label="Amenities">
+							<h2>Amenities</h2>
+							<ul>
+								<li class="tv-icon">TV</li>
+								<li class="wifi-icon">WIFI</li>
+								<li class="pets-icon">Pets friendly</li>
+							</ul>
+						</div>
+						<div class="reviews" aria-label="Reviews">
+							<h2>2 Reviews</h2>
+							<ul>
+								<li>
+									<h3>From Bob Dylan the 27th January 2017</h3>
+									<p>Runshi is an epic host. Nothing more I can say. 5 star!</p>
+								</li>
+								<li>
+									<h3>From Connor the 4th January 2017</h3>
+									<p>Highly recommended!</p>
+								</li>
+							</ul>
+						</div>
+					</article>
+				</li>
+				<li>
+					<article tabindex="0" aria-label="Place">
+						<h2>Tiny house</h2>
+						<div class="price_by_night" aria-label="Price">$65</div>
+						<div class="information" aria-label="Information">
+							<div class="max_guest" aria-label="Max Guest">
+								4 Guest
+							</div>
+							<div class="number_rooms" aria-label="Number of Rooms">
+								2 Bedroom
+							</div>
+							<div class="number_bathrooms" aria-label="Number of Bathrooms">
+								1 Bathroom
+							</div>
+						</div>
+						<div class="user" aria-label="Owner">
+							<strong>Owner</strong>: Adrienne
+						</div>
+						<div class="description" aria-label="Description">
+							This is a lovely 1 bedroom and 1 bathroom apartment that can accomodate 2 people.
+							It locates at the center of Shanghai and next to the subway line 1.
+							1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
+							This is a lovely 1 bedroom and 1 bathroom apartment that can accomodate 2 people.
+							It locates at the center of Shanghai and next to the subway line 1.
+							1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
+						</div>
+						<div class="amenities" aria-label="Amenities">
+							<h2>Amenities</h2>
+							<ul>
+								<li class="pets-icon"> Pets friendly</li>
+							</ul>
+						</div>
+						<div class="reviews" aria-label="Reviews">
+							<h2>1 Reviews</h2>
+							<ul>
+								<li>
+									<h3>From Bob Dylan the 27th January 2017</h3>
+									<p>
+										Runshi is an epic host. Nothing more I can say. 5 star!
+										Runshi is an epic host. Nothing more I can say. 5 star!
+										Runshi is an epic host. Nothing more I can say. 5 star!
+										Runshi is an epic host. Nothing more I can say. 5 star!
+									</p>
+								</li>
+							</ul>
+						</div>
+					</article>
+				</li>
+				<li>
+					<article tabindex="0" aria-label="Place">
+						<h2>A suite</h2>
+						<div class="price_by_night" aria-label="Price">$190</div>
+						<div class="information" aria-label="Information">
+							<div class="max_guest" aria-label="Max Guest">
+								2 Guest
+							</div>
+							<div class="number_rooms" aria-label="Number of Rooms">
+								1 Bedroom
+							</div>
+							<div class="number_bathrooms" aria-label="Number of Bathrooms">
+								1 Bathroom
+							</div>
+						</div>
+						<div class="user" aria-label="Owner">
+							<strong>Owner</strong>: John Lennon
+						</div>
+						<div class="description" aria-label="Description">
+							This is a lovely 1 bedroom and 1 bathroom apartment that can accomodate 2 people.
+							It locates at the center of Shanghai and next to the subway line 1.
+							1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
+						</div>
+						<div class="amenities" aria-label="Amenities">
+							<h2>Amenities</h2>
+							<ul>
+								<li class="tv-icon">TV</li>
+								<li class="wifi-icon">WIFI</li>
+							</ul>
+						</div>
+						<div class="reviews" aria-label="Reviews">
+							<h2>0 Reviews</h2>
+							<ul>
+							</ul>
+						</div>
+					</article>
+				</li>
+			</ul>
+		</section>
+	</div>
+	<footer aria-label="Footer">
+		Best School
+	</footer>
+</body>
+
+</html>

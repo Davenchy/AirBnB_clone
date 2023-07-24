@@ -1,0 +1,22 @@
+header {
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  aspect-ratio: 2/1;
+  margin-left: 20px;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  header .logo {
+    margin: 0 auto;
+  }
+}
